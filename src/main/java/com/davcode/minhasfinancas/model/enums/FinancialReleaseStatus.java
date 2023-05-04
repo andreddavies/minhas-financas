@@ -1,4 +1,4 @@
-package com.davcode.minhasfinancas.model.entity;
+package com.davcode.minhasfinancas.model.enums;
 
 public enum FinancialReleaseStatus {
     PENDENTE,
