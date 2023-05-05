@@ -4,6 +4,7 @@ package com.davcode.minhasfinancas.model.entity;
 import com.davcode.minhasfinancas.model.enums.FinancialReleaseStatus;
 import com.davcode.minhasfinancas.model.enums.FinancialReleaseType;
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 
@@ -13,7 +14,7 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "lancamentos", schema = "financas")
 @Data
-//@Builder
+@Builder
 public class FinancialReleases {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
