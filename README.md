@@ -1,10 +1,8 @@
 # minhas-financas
-Full stack project to learn more about Java/Spring Boot<br />
+Full stack project to learn more about Java/Spring Boot
 
 
-#### ****************
-#### In construction
-#### ****************<br />
+#### **************** In construction ****************
 
 
 This project use Java/Spring Boot.
